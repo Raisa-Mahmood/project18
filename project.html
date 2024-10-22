@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        code{
+            color: rgb(158, 16, 186);
+            font-size: xx-large;
+        }
+        div{
+            margin: 30px;
+            border: 2px solid ;
+            padding: 20px;
+        }
+        h2{
+            text-shadow: 2px 2px bisque;
+        }
+    </style>
+</head>
+<body>
+    <div>
+<h2>Multiplications with Javascript</h2>
+<p id="pq"></p>
+    </div>
+<script>
+    var sum = function add(a,b){
+        return (a * b)
+    }
+    document.getElementById("pq").innerHTML="Multiplication of <code>61</code> and <code>289</code> is"+sum (61,289)
+</script>
+
+</body>
+</html>
